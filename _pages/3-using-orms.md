@@ -52,7 +52,7 @@ class Customer(Base):
     address_id: Mapped[int]
 
     def __repr__(self) -> str:
-        return f"Item(id={self.id!r}, name={self.name!r}, address_id={self.address_id!r})"
+        return f"Customer(id={self.id!r}, name={self.name!r}, address_id={self.address_id!r})"
 ```
 
 We indicate the name of the table by using the [`__tablename__`](https://docs.sqlalchemy.org/en/20/orm/mapping_api.html#sqlalchemy.orm.DeclarativeBase.__tablename__) class-level attribute.

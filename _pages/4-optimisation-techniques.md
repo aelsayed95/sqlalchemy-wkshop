@@ -296,7 +296,7 @@ Having said that, let's switch gears and look at asyncio, and how we can utilise
 
 > ##### Kudos!
 >
-> 🙌 You have now reached the `step-4-optimisatinos` part of the tutorial. If not, checkout that branch and continue from there:
+> 🙌 You have now reached the `step-4-optimisations` part of the tutorial. If not, checkout that branch and continue from there:
 >```sh
 >git checkout step-4-optimisations
 >```
